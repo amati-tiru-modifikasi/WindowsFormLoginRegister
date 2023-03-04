@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormLoginRegister
 {
-    public partial class Form1 : Form
+    public partial class Frm_Login : Form
     {
-        public Form1()
+        public Frm_Login()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
